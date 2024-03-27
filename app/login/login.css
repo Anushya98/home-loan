@@ -1,0 +1,56 @@
+/* login.css */
+
+.container {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center;
+    min-height: 100vh; /* Ensure full height of the viewport */
+    background: linear-gradient(to right, #007bff 20%, #ffffff 80%); /* Gradient background from blue to white */
+}
+
+.form {
+    width: 300px; /* Set a fixed width for the form */
+    margin-right: 20px; /* Add margin to the right to create space */
+    background-color: #fff; /* Background color for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the card */
+}
+
+.inputContainer {
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%; /* Make inputs take full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    width: 100%; /* Button takes full width */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signUp {
+    margin-top: 10px;
+    text-align: center;
+    color: #555;
+}
+
+.heading {
+    font-size: 24px; /* Larger font size for heading */
+    font-weight: bold; /* Bold font weight */
+}
+
+.description {
+    font-size: 14px; /* Smaller font size for description */
+    font-weight: normal; /* Normal font weight */
+    color: #555;
+}
